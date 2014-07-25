@@ -1,0 +1,33 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<title>zGroups</title>
+		<script src="//code.angularjs.org/1.2.0/angular.js"></script>
+		<script src="//code.angularjs.org/1.2.0/angular-cookies.js"></script>
+		<script src="//code.angularjs.org/1.2.0/angular-resource.js"></script>
+		<script src="//code.angularjs.org/1.2.0/angular-route.js"></script>
+		
+		<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.6.0/ui-bootstrap-tpls.min.js"></script>
+		
+		<script src="{% static 'students_db/js/app.js' %}"></script>
+		<script src="{% static 'students_db/js/services.js' %}"></script>
+		<script src="{% static 'students_db/js/controllers.js' %}"></script>
+		<script src="{% static 'students_db/js/directives.js' %}"></script>
+		<script src="{% static 'students_db/js/xeditable.min.js' %}"></script>
+		
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		
+		<link rel="stylesheet" type="text/css" href="{% static 'students_db/css/main.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'students_db/css/xeditable.css' %}">
+	</head>
+	<body>
+		{% block content %}
+		{% endblock content %}
+	</body>
+</html>

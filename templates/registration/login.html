@@ -1,0 +1,32 @@
+{% extends "base.htm" %}
+{% load static %}
+{% load url from future %}
+
+{% block content %}
+
+<div class="container text-center">
+<div class="row col-md-8">
+<form method="post" action="{% url 'django.contrib.auth.views.login' %}">
+{% csrf_token %}
+<table class="table table-condensed table-bordered table-responsive">
+<tr>
+    <td>{{ form.username.label_tag }}</td>
+    <td>{{ form.username }}</td>
+</tr>
+<tr>
+    <td>{{ form.password.label_tag }}</td>
+    <td>{{ form.password }}</td>
+</tr>
+</table>
+
+{% if form.errors %}
+<p class="text-warning">Your username and password didn't match. Please try again.</p>
+{% endif %}
+
+<input type="submit" class="btn btn-success" value="login" />
+<input type="hidden" name="next" value="{{ next }}" />
+</form>
+
+</div>
+</div>
+{% endblock %}

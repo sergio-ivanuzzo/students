@@ -1,0 +1,65 @@
+[
+{
+    "pk": 1, 
+    "model": "students_db.group", 
+    "fields": {
+        "name": "group"
+    }
+},
+{
+    "pk": 17, 
+    "model": "students_db.group", 
+    "fields": {
+        "name": "zxzx1"
+    }
+},
+{
+    "pk": 18, 
+    "model": "students_db.group", 
+    "fields": {
+        "name": "qw-8z"
+    }
+},
+{
+    "pk": 20, 
+    "model": "students_db.group", 
+    "fields": {
+        "name": "io"
+    }
+},
+{
+    "pk": 21, 
+    "model": "students_db.group", 
+    "fields": {
+        "name": "mopoz"
+    }
+},
+{
+    "pk": 23, 
+    "model": "students_db.group", 
+    "fields": {
+        "name": "tst2"
+    }
+},
+{
+    "pk": 24, 
+    "model": "students_db.group", 
+    "fields": {
+        "name": "fgf"
+    }
+},
+{
+    "pk": 25, 
+    "model": "students_db.group", 
+    "fields": {
+        "name": "fgf1"
+    }
+},
+{
+    "pk": 26, 
+    "model": "students_db.group", 
+    "fields": {
+        "name": "delta"
+    }
+}
+]

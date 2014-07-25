@@ -1,0 +1,137 @@
+{% extends "base.htm" %}
+{% load static %}
+{% load my_tags %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+	<nav class="navbar navbar-default navbar-inverse" role="navigation">
+		Reptiloidz production
+	</nav>
+
+	<div class="col-md-6" ng-controller="GroupsCtrl">
+		<table class="table-striped table-bordered table-hover table-condensed table-responsive">
+		<tr>
+			<th class="text-center">Group name</th>
+			<th class="text-center">Actions</th>
+		</tr>
+		
+		<tr>
+			<td colspan="2">
+				<div class="input-group input-group-sm">
+					<span class="glyphicon glyphicon-search input-group-addon"></span>
+					<input ng-model="g_search" placeholder="Input search data.." class="form-control">
+				</div>
+			</td>
+		</tr>
+		
+		<tr ng-repeat="group in groups | filter: g_search">
+			<td>
+				<a href="#" editable-text="group.name" buttons="no" blur="submit" onaftersave="updateGroup(group)" title="Click for edit">
+					{ng group.name || errors.groups.update ng}
+				</a>
+			</td>
+			<td class="col-md-2">
+				<div class="pull-right">
+					<button type="button" class="btn btn-primary" ng-click="getStudents(group)">
+						Get students
+					</button>					
+					<button type="button" class="btn btn-danger" ng-click="deleteGroup(group.id, $index)">
+						Delete
+					</button>
+				</div>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2">
+				<div class="pull-right">
+					<button role="button" class="btn btn-success" ng-click="addGroup()">Add group</button>
+				</div>
+			</td>
+		</tr>
+		
+		</table>
+	</div>
+	
+	<div class="col-md-6" ng-controller="StudentsCtrl" ng-show="studentList">
+
+		<div>
+			{ng students1 ng}
+			<table class="table-striped table-bordered table-hover table-condensed table-responsive">
+			
+				<tr>
+					<th>Group</th>
+					<th>Name</th>
+					<th>Birth date</th>
+					<th>Card code</th>
+					<th>Captain</th>
+					<th>Actions</th>
+				</tr>
+			
+				<tr>
+					<td colspan="6">
+						<div class="input-group input-group-sm">
+							<span class="glyphicon glyphicon-search input-group-addon"></span>
+							<input ng-model="s_search" placeholder="Input search data.." class="form-control">
+						</div>
+					</td>
+				</tr>
+			
+				<tr ng-repeat="student in students | filter: s_search">
+					<td class="col-md-2">
+						<a href="#" blur="submit"
+									buttons="no"
+									onaftersave="updateStudent(student)" 
+									editable-select="student.group" 
+									e-ng-options="group.id as group.name for group in groups" 
+									ng-init="student.group=groupID">
+							{ng groupName || errors.students.update.group[0] ng}
+						</a>
+					</td>
+					<td>
+						<a href="#" editable-text="student.name" buttons="no" blur="submit" onaftersave="updateStudent(student)" title="Click for edit">
+							{ng student.name || errors.students.update.name[0] ng}
+						</a>
+					</td>
+					<td class="col-md-2">
+						<a href="#" e-datepicker-popup="yyyy-mm-dd" editable-bsdate="student.birth_date" buttons="no" blur="submit" onaftersave="updateStudent(student)" title="Click for edit">
+							{ng student.birth_date | date: "yyyy-MM-dd" || errors.students.update.birth_date[0] ng}
+						</a>
+					</td>
+					<td>
+						<a href="#" editable-text="student.card_code" buttons="no" blur="submit" onaftersave="updateStudent(student)" title="Click for edit">
+							{ng student.card_code || errors.students.update.card_code[0] ng}
+						</a>
+					</td>
+					<td>
+						<a href="#" editable-checkbox="student.captain" buttons="no" blur="submit" onaftersave="updateStudent(student)" title="Click for edit">
+							{ng student.captain ng}
+						</a>
+					</td>
+					<td>
+			
+						<div class="pull-right">
+
+							<button type="button" class="btn btn-danger" ng-click="deleteStudent(student, $index)">
+								Delete
+							</button>
+						</div>			
+					</td>
+				</tr>
+				<tr>
+					<td colspan="6">
+						<div class="pull-right">
+							<button role="button" class="btn btn-success" ng-click="addStudent()">Add student</button>
+						</div>
+					</td>
+				</tr>				
+			
+			</table>
+		</div>
+	</div>
+	
+</div>
+
+{% endblock content %}

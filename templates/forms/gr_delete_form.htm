@@ -1,0 +1,8 @@
+{% extends "base.htm" %}
+{% block content %}
+<form method="post" action="{% url 'gr-delete' group.id %}">
+	{% csrf_token %}
+	R u sure u wanna delete this ?
+	<input type="submit" value="OK">
+</form>
+{% endblock %}

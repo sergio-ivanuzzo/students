@@ -1,0 +1,22 @@
+body {
+	background: #ffffd9;
+}
+table {
+	width: 96% !important ;
+	margin: 10px;
+}
+table th{
+	color: silver;
+}
+.studentForm td {
+	width: 100px;
+}
+table td {
+	width: 40%;
+}
+#ui-datepicker-div {
+	z-index: 9999 !important;
+}
+.fix_fieldset {
+	margin: 10px auto;
+}

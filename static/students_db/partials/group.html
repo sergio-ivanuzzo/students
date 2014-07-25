@@ -1,0 +1,29 @@
+<table class="table-striped table-bordered table-hover table-condensed table-responsive">
+
+	<tr>
+		<td>
+			Students
+			<div class="input-group input-group-sm">
+				<span class="glyphicon glyphicon-search input-group-addon"></span>
+				<input ng-model="s_search" placeholder="Input search data.." class="form-control">
+			</div>
+		</td>
+	</tr>
+
+	<tr ng-repeat="student in students | filter: s_search">
+		<td>
+			<strong>Name:</strong>{ng student.name ng}
+			(<strong>id:</strong>{ng student.id ng})
+
+			<div class="pull-right">
+				<button type="button" class="btn btn-info">
+					Edit
+				</button>
+				<button type="button" class="btn btn-danger">
+					Delete
+				</button>
+			</div>			
+		</td>
+	</tr>
+
+</table>

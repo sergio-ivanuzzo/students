@@ -1,0 +1,519 @@
+[
+{
+    "pk": 17, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-06-12", 
+        "captain": false, 
+        "group": 24, 
+        "name": "Capitan01", 
+        "card_code": "jbh"
+    }
+},
+{
+    "pk": 18, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-02-03", 
+        "captain": true, 
+        "group": 24, 
+        "name": "Capitan111", 
+        "card_code": "hghgh"
+    }
+},
+{
+    "pk": 19, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-02-15", 
+        "captain": false, 
+        "group": 1, 
+        "name": "Capitan", 
+        "card_code": "dfgfdg"
+    }
+},
+{
+    "pk": 21, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-02-14", 
+        "captain": false, 
+        "group": 23, 
+        "name": "gfhghg", 
+        "card_code": "vbb"
+    }
+},
+{
+    "pk": 22, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-02-06", 
+        "captain": false, 
+        "group": 21, 
+        "name": "kk98-", 
+        "card_code": "gyhj"
+    }
+},
+{
+    "pk": 23, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-02-10", 
+        "captain": false, 
+        "group": 23, 
+        "name": "hyyyyy2", 
+        "card_code": "cvbvbvb"
+    }
+},
+{
+    "pk": 24, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-02-07", 
+        "captain": false, 
+        "group": 23, 
+        "name": "uuu", 
+        "card_code": "hjhj"
+    }
+},
+{
+    "pk": 25, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-02-08", 
+        "captain": true, 
+        "group": 21, 
+        "name": "qwerty91", 
+        "card_code": "\u043a\u0443\u0435\u043a\u0446\u0435\u0443\u0446\u043a\u0435\u0443\u0446\u043a\u0435\u0443\u0446\u043a\u0435"
+    }
+},
+{
+    "pk": 26, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-02-04", 
+        "captain": false, 
+        "group": 1, 
+        "name": "qw-8kCAPITAN2", 
+        "card_code": "\u0443\u0446\u0435\u043a\u0443\u0446\u0435\u0443\u043a\u0446\u0435\u0446\u0443\u043a\u0435\u0443\u043a\u0446"
+    }
+},
+{
+    "pk": 27, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-21", 
+        "captain": false, 
+        "group": 18, 
+        "name": "\u0439\u0446\u0439\u0446", 
+        "card_code": "\u044b\u0432\u0430"
+    }
+},
+{
+    "pk": 28, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-12", 
+        "captain": false, 
+        "group": 18, 
+        "name": "sdsd-TO-qw-8k", 
+        "card_code": "xc"
+    }
+},
+{
+    "pk": 29, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-06", 
+        "captain": false, 
+        "group": 21, 
+        "name": "asdas1", 
+        "card_code": "234324"
+    }
+},
+{
+    "pk": 30, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-25", 
+        "captain": false, 
+        "group": 23, 
+        "name": "sdsd", 
+        "card_code": "sdsd"
+    }
+},
+{
+    "pk": 31, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-20", 
+        "captain": false, 
+        "group": 23, 
+        "name": "sdsdsd", 
+        "card_code": "sd"
+    }
+},
+{
+    "pk": 32, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-20", 
+        "captain": false, 
+        "group": 18, 
+        "name": "dfdfdf", 
+        "card_code": "dfdfdf"
+    }
+},
+{
+    "pk": 33, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-07", 
+        "captain": false, 
+        "group": 23, 
+        "name": "dfdf", 
+        "card_code": "dfdf"
+    }
+},
+{
+    "pk": 34, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-14", 
+        "captain": false, 
+        "group": 20, 
+        "name": "sdsd99", 
+        "card_code": "sdsd"
+    }
+},
+{
+    "pk": 35, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-19", 
+        "captain": false, 
+        "group": 17, 
+        "name": "JJJJJ1", 
+        "card_code": "sdsd"
+    }
+},
+{
+    "pk": 36, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-20", 
+        "captain": false, 
+        "group": 23, 
+        "name": "aaaaaa", 
+        "card_code": "ddfdf"
+    }
+},
+{
+    "pk": 37, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-15", 
+        "captain": false, 
+        "group": 1, 
+        "name": "ffgh", 
+        "card_code": "fggh"
+    }
+},
+{
+    "pk": 38, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-11", 
+        "captain": false, 
+        "group": 1, 
+        "name": "dgdfdfg", 
+        "card_code": "ghg"
+    }
+},
+{
+    "pk": 39, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-21", 
+        "captain": false, 
+        "group": 1, 
+        "name": "fhfh", 
+        "card_code": "jllkl"
+    }
+},
+{
+    "pk": 40, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-12", 
+        "captain": false, 
+        "group": 18, 
+        "name": "qw-8kCAPITAN", 
+        "card_code": "fgfg"
+    }
+},
+{
+    "pk": 41, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-12", 
+        "captain": false, 
+        "group": 17, 
+        "name": "fgfg6", 
+        "card_code": "fgfg"
+    }
+},
+{
+    "pk": 42, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-06", 
+        "captain": false, 
+        "group": 1, 
+        "name": "qwerty", 
+        "card_code": "qwer"
+    }
+},
+{
+    "pk": 43, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-20", 
+        "captain": false, 
+        "group": 18, 
+        "name": "asd5656", 
+        "card_code": "23423432"
+    }
+},
+{
+    "pk": 44, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-12", 
+        "captain": false, 
+        "group": 17, 
+        "name": "21321321", 
+        "card_code": "1234543576575435435252"
+    }
+},
+{
+    "pk": 45, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-13", 
+        "captain": false, 
+        "group": 20, 
+        "name": "jkjk", 
+        "card_code": "sadas5"
+    }
+},
+{
+    "pk": 46, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-11", 
+        "captain": false, 
+        "group": 17, 
+        "name": "gh2vfbffgfg", 
+        "card_code": "ghghgh"
+    }
+},
+{
+    "pk": 47, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-12", 
+        "captain": false, 
+        "group": 21, 
+        "name": "capitan1", 
+        "card_code": "qwer"
+    }
+},
+{
+    "pk": 48, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-19", 
+        "captain": false, 
+        "group": 21, 
+        "name": "capitan_007", 
+        "card_code": "qwerty"
+    }
+},
+{
+    "pk": 49, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-25", 
+        "captain": false, 
+        "group": 21, 
+        "name": "dgfdgfdg", 
+        "card_code": "cgvhgjhgfj"
+    }
+},
+{
+    "pk": 50, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-18", 
+        "captain": false, 
+        "group": 20, 
+        "name": "dsfdf_captain", 
+        "card_code": "sdfsdf"
+    }
+},
+{
+    "pk": 51, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-24", 
+        "captain": false, 
+        "group": 20, 
+        "name": "asdasd", 
+        "card_code": "asdsad"
+    }
+},
+{
+    "pk": 53, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-18", 
+        "captain": false, 
+        "group": 21, 
+        "name": "asgag1", 
+        "card_code": "sadsad"
+    }
+},
+{
+    "pk": 55, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-29", 
+        "captain": false, 
+        "group": 23, 
+        "name": "gagasg", 
+        "card_code": "asdasd"
+    }
+},
+{
+    "pk": 56, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-18", 
+        "captain": false, 
+        "group": 25, 
+        "name": "qwerghj", 
+        "card_code": "asdasd"
+    }
+},
+{
+    "pk": 57, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-19", 
+        "captain": false, 
+        "group": 25, 
+        "name": "dfdfgh", 
+        "card_code": "zxcvxzcv"
+    }
+},
+{
+    "pk": 58, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-26", 
+        "captain": true, 
+        "group": 20, 
+        "name": "klklkl", 
+        "card_code": "cvbcbvb"
+    }
+},
+{
+    "pk": 63, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-04", 
+        "captain": false, 
+        "group": 17, 
+        "name": "dsfasd", 
+        "card_code": "1234"
+    }
+},
+{
+    "pk": 64, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-03", 
+        "captain": true, 
+        "group": 1, 
+        "name": "ddddd", 
+        "card_code": "111"
+    }
+},
+{
+    "pk": 65, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-09", 
+        "captain": true, 
+        "group": 1, 
+        "name": "asd", 
+        "card_code": "111"
+    }
+},
+{
+    "pk": 66, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-12", 
+        "captain": true, 
+        "group": 17, 
+        "name": "1111", 
+        "card_code": "11"
+    }
+},
+{
+    "pk": 67, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-04", 
+        "captain": false, 
+        "group": 24, 
+        "name": "gvhgvh", 
+        "card_code": "ghgh"
+    }
+},
+{
+    "pk": 68, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-04", 
+        "captain": false, 
+        "group": 23, 
+        "name": "ghgh", 
+        "card_code": "ghgh"
+    }
+},
+{
+    "pk": 72, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-19", 
+        "captain": false, 
+        "group": 25, 
+        "name": "dsfdsf", 
+        "card_code": "fggf"
+    }
+},
+{
+    "pk": 73, 
+    "model": "students_db.student", 
+    "fields": {
+        "birth_date": "2014-03-12", 
+        "captain": true, 
+        "group": 26, 
+        "name": "ghgh", 
+        "card_code": "fghfghgfh"
+    }
+}
+]

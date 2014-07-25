@@ -1,0 +1,8 @@
+{% extends "base.htm" %}
+{% block content %}
+<form method="post" action="{% url 'stud-create' %}">
+	{% csrf_token %}
+	{{ form }}
+	<input type="submit" value="OK">
+</form>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.htm" %}
+{% block content %}
+	<a href={% url "stud-create" %}>Add student</a><br/>
+	{% verbatim %}
+	<div ng-controller="studentController">{{ students }}</div>
+	{% endverbatim %}
+
+	
+	<table ng-controller="studentController">
+		{% verbatim %}
+		<tr ng-repeat="student in students">
+			<td>
+				<b>{{student.name}}</b>
+			</td>
+			<td>
+				<a href="/stud-update/{{ student.id }}">[Edit]</a>
+				<a href="/stud-delete/{{ student.id }}">[Delete]</a>
+				<br/>
+			</td>
+		</tr>
+		{% endverbatim %}
+	</table>
+{% endblock content %}
